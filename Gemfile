@@ -25,6 +25,9 @@ gem 'puma', '~> 3.0'
 # Let use call json using active record serializers using ActiveRecord while outputing output API with out views
 gem 'active_model_serializers'
 
+# Enabling CORS for Cross-Origin Resource Sharing  (CORS), in order to make cross-origin AJAX requests possible
+gem 'rack-cors'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
